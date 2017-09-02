@@ -1,10 +1,16 @@
 # count-down
 实现时间的倒计时，像促销活动的时间倒计时
 //具体几个处理方法
+
+
+
+
 function FreshTime()
 {
-        var endtime=new Date("2017/9/3,12:20:12");//结束时间
-        var nowtime = new Date();//当前时间
+        //结束时间
+        var endtime=new Date("2017/9/3,12:20:12");
+        //当前时间
+        var nowtime = new Date();
         var lefttime=parseInt(endtime.getTime()-nowtime.getTime()); 
         d= parseInt(lefttime/(1000*60*60*24));
        
